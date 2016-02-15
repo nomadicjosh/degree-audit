@@ -1,4 +1,4 @@
-<?php namespace app\plugins\degreeaudit\classes;
+<?php
 if (!defined('BASE_PATH'))
     exit('No direct script access allowed');
 

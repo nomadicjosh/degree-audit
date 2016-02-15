@@ -1,4 +1,4 @@
-<?php namespace app\plugins\degreeaudit\classes;
+<?php
 if (!defined('BASE_PATH'))
     exit('No direct script access allowed');
 
@@ -10,8 +10,5 @@ class DegreeAudit
         
     }
 
-    public function index_page()
-    {
-        include( PLUGINS_DIR . 'degreeaudit/templates/indexpage.php' );
-    }
+    
 }
